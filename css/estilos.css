@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+}
+
+#header{
+    display: flex;
+
+}
+
+#header img:first-child{
+    padding: 0px 0px 0px 150px;
+}
+
+#menu{
+    text-align: center;
+    padding-left: 350px;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+#menu a{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    color: #fec000;
+}
+
+#menu a:last-of-type{
+    color: black;
+    padding: 15px;
+    background-color: #0d9598;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+#menu img{
+    height: 60px;
+}
