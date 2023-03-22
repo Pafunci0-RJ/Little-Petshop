@@ -10,6 +10,7 @@ body {
 
 #header img:first-child {
     padding: 0px 0px 0px 150px;
+    height: 120px;
 }
 
 #menu {
@@ -45,10 +46,60 @@ body {
     color: rgb(255, 255, 255);
 }
 
-#menu a:last-of-type:hover {
+#menu-sobre a:last-of-type:hover {
     background-color: #fec000;
 }
 
+#header-sobre {
+    display: flex;
+    background-color: purple;    height: 120px;
+}
+
+#header-sobre   img:first-child {
+    padding: 0px 0px 0px 150px;
+}
+
+#menu-sobre {
+    text-align: center;
+    padding-left: 350px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+#menu-sobre a {
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    color: #fec000;
+}
+
+#menu-sobre a:last-of-type {
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    background-color: hsl(286, 84%, 30%);
+    border-radius: 15px;
+
+}
+
+#menu-sobre img {
+    height: 60px;
+}
+
+#menu-sobre a:hover {
+    color: rgb(255, 255, 255);
+}
+
+#menu-sobre a:last-of-type:hover {
+    background-color: #fec000;
+}
+
+#menu-sobre i{
+    padding-left: 15px;
+    font-size: 50px;
+}
 /* MIOLOD DO SITE */
 
 #meio {
@@ -94,7 +145,7 @@ body {
 }
 
 
-footer {
+.footer {
     color: blue;
     background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );    height: 120px;
     display: flex;
@@ -119,6 +170,36 @@ footer {
 }
 
 footer img {
+    width: 90px;
+    height: 70px;
+    padding: 0px 0px 0px 650px;
+}
+
+#roxo-sobre {
+    color: blue;
+    background-color: purple; height: 120px;
+    display: flex;
+    height: 55px;
+    padding-bottom: 14px;
+
+}
+
+#fim2 {
+    color: white;
+    text-decoration: none;
+    margin-top: 25px;
+    margin-left: 60px;
+    font-size: 25px;
+    color: #fec000;
+
+
+}
+
+#fim2:hover {
+    color: #ffffff;
+}
+
+#roxo-sobre img {
     width: 90px;
     height: 70px;
     padding: 0px 0px 0px 650px;
@@ -208,4 +289,175 @@ p {
 #botao a:hover{
     color: #ffffff;
     background-color: #074445;
+}
+/* Pagina login */
+
+#login2 {
+    width: 150px;
+    height: 40px;
+    background-color: #0d9598;
+    color: white;
+    font-size: 16px;
+    padding-top: 3px;
+    border-radius: 10px;
+    border: none;
+}
+
+#entrar {
+    text-decoration: none;
+    color: black;
+}
+
+#entrar:hover{
+    color: white;
+}
+
+#agendar2 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-left: 25px;
+    margin-top: 100px;
+}
+
+#agendar2 input {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    border: solid 1px lightblue;
+    width: 300px;
+    border-color: #074445;
+    padding: 8px;
+    margin-top: 3px;
+    background-color: rgb(186, 186, 186);
+    border: none;
+
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin: 2px;
+}
+
+#container2{
+    background: url(../imagens/pata\ dog\ roxo.png) no-repeat;
+    background-position-x: right;
+    height: 829px;
+}
+
+#meio3{
+    display: flex;
+    justify-content: end;
+}
+
+#meio3 h1{
+    margin-right: 170px;
+    margin-top: 200px;
+    font-size: 25px;
+    background-color: rgb(68, 68, 68);
+    padding: 12px;
+    border-radius: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#conteudo{
+    display: flex;
+    padding: 10px;
+    float: right;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: hsl(286, 84%, 30%);
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 50px;
+    color: #FFFFFF;
+}
+
+/* Estilos pagina Agendamento */
+
+#container3 {
+    background: url(../imagens/agendamento.jpeg) no-repeat;
+    height: 600px;
+
+}
+
+#titulo p {
+    padding-top: 10px;
+    font-size: 36px;
+    text-align: center;
+    color: #ffbf00;
+}
+
+#titulo p:hover {
+    color: #074445;
+    font-weight: bold;
+
+}
+
+
+#agendamento-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 900px;
+    border-radius: 10px;
+    width: 300px;
+    
+}
+
+#agendamento-1 p {
+    margin-top:20px ;
+    font-size: 26px;
+}
+
+#agendamento-1 input {
+    background-color: #fec000;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 160px;
+    margin-top: 20px;
+    margin-left: 68px;
+}
+
+#tipos {
+    text-align: center;
+}
+#horario {
+    text-align: center;
+}
+#endereco {
+    text-align: center;
+}
+#nome {
+    text-align: center;
+}
+
+#botao-enviar {
+    padding-left: 975px;
+    text-decoration: none;
+    padding-top: 10px;
+    
+}
+
+#enviar-1 {
+    background-color: #0d9598;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 60px;
+}
+
+#enviar-2 {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#enviar-2:hover {
+    color: white;
 }
